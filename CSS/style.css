@@ -1,16 +1,144 @@
 body{
-    background-color: black;
+    background-color: white;
     align-items: center;
 }
 
 .calc{
-    margin-left: 30%;
-    margin-bottom: 5%;
-    margin-top: 7%;
-    height: 550px;
-    width: 35%;
-    background-color: white;
-    border-radius: 15px;
+    position: absolute;
+    width: 712px;
+    height: 676px;
+    left: 364px;
+    top: calc(50% - 676px/2);
+    
+    background: #272727;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
 
+.screen{
+position: absolute;
+width: 640px;
+height: 120px;
+left: 40px;
+top: 50px;
+font-size: 48px;
+text-align: right;
+background: #739C5F;
+}
+
+.button1{
+position: absolute;
+width: 72px;
+height: 72px;
+left: 400px;
+top: 260px;
+background: #C4C4C4;
+}
+.button1:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.button2{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 510px;
+    top: 260px;
+    background: #C4C4C4;
+    }
+.button2:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.button3{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 620px;
+    top: 260px;
+    background: #C4C4C4;
+    }
+.button3:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+
+
+.button4{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 400px;
+    top: 370px;
+    background: #C4C4C4;
+    }
+    .button4:hover{
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    }
+    
+    .button5{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 510px;
+        top: 370px;
+        background: #C4C4C4;
+        }
+    .button5:hover{
+            box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    }
+    
+    .button6{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 620px;
+        top: 370px;
+        background: #C4C4C4;
+        }
+    .button6:hover{
+            box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    }
+    
+
+
+
+
+    .button7{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 400px;
+        top: 480px;
+        background: #C4C4C4;
+        }
+        .button7:hover{
+            box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        }
+        
+        .button8{
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            left: 510px;
+            top: 480px;
+            background: #C4C4C4;
+            }
+        .button8:hover{
+                box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        }
+        
+        .button9{
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            left: 620px;
+            top: 480px;
+            background: #C4C4C4;
+            }
+        .button9:hover{
+                box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        }
+        
