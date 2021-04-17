@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+
+.calc{
+    margin-left: 30%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    height: 550px;
+    width: 35%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
