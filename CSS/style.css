@@ -27,75 +27,15 @@ body {
     background: #739c5f;
 }
 
-.button9 {
-    width: 72px;
-    height: 72px;
-    left: 400px;
-    top: 260px;
-}
-
-.button8 {
-    width: 72px;
-    height: 72px;
-    left: 510px;
-    top: 260px;
-}
-
-.button7 {
-    width: 72px;
-    height: 72px;
-    left: 620px;
-    top: 260px;
-}
-
-.button6 {
-    width: 72px;
-    height: 72px;
-    left: 400px;
-    top: 370px;
-}
-
-.button5 {
-    width: 72px;
-    height: 72px;
-    left: 510px;
-    top: 370px;
-}
-
-.button4 {
-    width: 72px;
-    height: 72px;
-    left: 620px;
-    top: 370px;
-}
-
-.button3 {
-    width: 72px;
-    height: 72px;
-    left: 400px;
-    top: 480px;
-}
-
-.button2 {
-    width: 72px;
-    height: 72px;
-    left: 510px;
-    top: 480px;
-}
-
-.button1 {
-    width: 72px;
-    height: 72px;
-    left: 620px;
-    top: 480px;
-}
-.button0 {
-    width: 144px;
-    height: 72px;
-    left: 400px;
-    top: 590px;
-}
-
+.but_dot,
+.left_bracket,
+.right_bracket,
+.equal,
+.clr,
+.but_add,
+.but_sub,
+.but_pro,
+.but_div,
 .button0,
 .button1,
 .button2,
@@ -114,7 +54,157 @@ body {
     text-align: center;
     font-size: 22px;
     border-radius: 25%;
+    color: #2c2c2c;
 }
+
+.button9 {
+    width: 72px;
+    height: 72px;
+    left: 620px;
+    top: 260px;
+}
+
+.button8 {
+    width: 72px;
+    height: 72px;
+    left: 510px;
+    top: 260px;
+}
+
+.button7 {
+    width: 72px;
+    height: 72px;
+    left: 400px;
+    top: 260px;
+}
+
+.button6 {
+    width: 72px;
+    height: 72px;
+    left: 620px;
+    top: 370px;
+}
+
+.button5 {
+    width: 72px;
+    height: 72px;
+    left: 510px;
+    top: 370px;
+}
+
+.button4 {
+    width: 72px;
+    height: 72px;
+    left: 400px;
+    top: 370px;
+
+}
+
+.button3 {
+    width: 72px;
+    height: 72px;
+    left: 620px;
+    top: 480px;
+}
+
+.button2 {
+    width: 72px;
+    height: 72px;
+    left: 510px;
+    top: 480px;
+}
+
+.button1 {
+    width: 72px;
+    height: 72px;
+    left: 400px;
+    top: 480px;
+}
+.button0 {
+    width: 144px;
+    height: 72px;
+    left: 400px;
+    top: 590px;
+}
+
+.but_add {
+    width: 72px;
+    height: 85px;
+    left: 760px;
+    top: 530px;
+    background-color: #505050;
+    color: white;
+    padding: 35px 0;
+}
+
+.but_sub {
+    width: 72px;
+    height: 72px;
+    left: 760px;
+    top: 440px;
+    background-color: #505050;
+    color: white;
+}
+
+.but_pro {
+    width: 72px;
+    height: 72px;
+    background-color: #505050;
+    color: white;
+    left: 760px;
+    top: 350px;
+}
+
+.but_div {
+    width: 72px;
+    height: 72px;
+    background-color: #505050;
+    color: white;
+    left: 760px;
+    top: 260px;
+}
+.but_dot{
+    width: 72px;
+    height: 72px; 
+    top:590px;
+    left:600px;   
+}
+.left_bracket{
+    width: 72px;
+    height: 72px;
+    top: 380px;
+    left: 930px;
+}
+.right_bracket{
+    width: 72px;
+    height: 72px;
+    top: 490px;
+    left: 930px;
+}
+.equal{
+    width: 144px;
+    height: 72px;
+    top: 590px;
+    left: 900px;
+}
+.clr{
+    width: 144px;
+    height: 72px;
+    top: 260px;
+    left: 900px;
+    background-color: orangered;
+    color: white;
+}
+
+.but_dot:hover,
+.left_bracket:hover,
+.right_bracket:hover,
+.equal:hover,
+.clr:hover,
+.but_add:hover,
+.but_sub:hover,
+.but_pro:hover,
+.but_div:hover,
 .button0:hover,
 .button1:hover,
 .button2:hover,
@@ -127,6 +217,16 @@ body {
 .button9:hover {
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
+
+.but_dot:active,
+.left_bracket:active,
+.right_bracket:active,
+.equal:active,
+.clr:active,
+.but_add:active,
+.but_sub:active,
+.but_pro:active,
+.but_div:active,
 .button0:active,
 .button1:active,
 .button2:active,

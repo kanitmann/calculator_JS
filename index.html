@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="/img/img.png" type="image/x-icon">
     <title>Calculator</title>
 </head>
 
@@ -15,7 +16,7 @@
 
     </div>
 
-    <div class="button9" , id="b9" , onclick=scr.value +='9'>
+    <div class="button9" , id="b9" , onclick="scr.value +='9'">
         <p>9</p>
     </div>
     <div class="button8" , id="b8" , onclick="scr.value += '8'">
@@ -44,6 +45,33 @@
     </div>
     <div class="button0" , id="b0" , onclick="scr.value+='0'">
         <p>0</p>
+    </div>
+    <div class="but_add" ,id="b_add" , onclick="scr.value+='+'">
+        <p>+</p>
+    </div>
+    <div class="but_sub" ,id="b_sub" , onclick="scr.value+='-'">
+        <p>-</p>
+    </div>
+    <div class="but_pro" ,id="b_pro" , onclick="scr.value+='*'">
+        <p>*</p>
+    </div>
+    <div class="but_div" ,id="b_div" , onclick="scr.value+='/'">
+        <p>/</p>
+    </div>
+    <div class="but_dot" ,id="b_dot" , onclick="scr.value+='.'">
+        <p>.</p>
+    </div>
+    <div class="left_bracket" ,id="b_lb" , onclick="scr.value+='('">
+        <p>(</p>
+    </div>
+    <div class="right_bracket" ,id="b_rb" , onclick="scr.value+=')'">
+        <p>)</p>
+    </div>
+    <div class="clr" ,id="b_clr" , onclick="scr.value=''">
+        <p>C</p>
+    </div>
+    <div class="equal" ,id="b_eql" , onclick="scr.value = eval(scr.value)">
+        <p>=</p>
     </div>
 </body>
 
