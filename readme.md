@@ -1,1 +1,1 @@
-https://kanitmann.github.io/calculator_JS/
+Hosted with :heart: on github pages: [Calculator](https://kanitmann.github.io/calculator_JS/)
